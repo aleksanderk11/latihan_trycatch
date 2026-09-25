@@ -56,9 +56,9 @@ void main() async{
   // });
 
   // poin
-  for (var i hasil['products']; i++) {
+  for (var i in hasil['products']) {
     print('-------------------------------------------');
-    print('${hasil[i]['title']}, ${hasil[i]['category']}, ${hasil[i]['price']}, ${hasil[i]['stock']}');
+    print('${i['title']} ${i['category']} ${i['price']} ${i['stock']}');
   }
 
 
